@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@300&display=swap');
+body{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+max-width: 700px;
+}
+.header > .info{
+    margin-left: 40px;
+}
+.header > .info h4{
+    margin-bottom: 10px;
+}
+.header{
+    margin-bottom: 10px;
+    display: flex;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: pink;
+}
+a:visited {
+    color: pink;
+    text-decoration: dotted;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.avatar{
+    width: 200;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0,25);
+    border-radius: 24px;
+}
+@media (max width 500px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+}
+.header p{
+color: #86898f;
+
+}
+.box h2{
+    margin-bottom: 10px;
+}
+.box{
+    margin-top: 30px;
+padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+.bg-yelloy{
+    background-color: bisque;
+}
+.bg-green{
+    background-color:burlywood;
+}
+.bg-red{
+    background-color:antiquewhite;
+}
+.list{
+padding: 0px 20px;
+}
+.list li{
+    color: 86898f;
+    margin-bottom: 10px;
+}
+.table{
+   width: 100%; 
+}
+.table td{
+   padding-bottom: 10px; 
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: gray;
+}
+.form h2{
+    text-align: center;
+}
+.lol label{
+    display: block;
+    font-size: 16px;
+    color: grey;
+}
+.lol input,
+.lol textarea{
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    outline: none;
+    padding: 15px 0 10px;
+    background: transparent;
+
+}
+.row{
+    display: flex;
+   margin-bottom: 20px; 
+}
+.row > .lol{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .lol:last-child{
+    margin-right: 0%;
+}
+.btn{
+   background-color: black;
+    padding: 15px 20px;
+    color: white;
+font-family: inherit;
+cursor: pointer;
+}
+.btn:hover {
+    opacity: 0,9;
+}
